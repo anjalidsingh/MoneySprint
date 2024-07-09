@@ -27,7 +27,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# MoneySprint
+
+## Deployment
+This project is deployed on Vercel. You can view it live at: [MoneySprint](https://moneyprint-weld.vercel.app/)
 
 ### `npm run eject`
 
