@@ -1,73 +1,34 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-# MoneySprint
-
-## Deployment
+# Deployment
 This project is deployed on Vercel. You can view it live at: [MoneySprint](https://moneyprint-weld.vercel.app/)
 
-### `npm run eject`
+# Key Features of MoneySprint:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. User Authentication
+Secure Login: Users can create an account and securely log in to access their personalized expense tracking dashboard.
+Data Privacy: Ensures that user data is kept private and secure.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Expense Tracking
+Daily Expense Logging: Users can log their daily expenses with ease.
+Detailed Records: Each expense entry includes the amount, category, and date.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Voice Input
+Voice Commands: Users can add expenses using voice commands for a hands-free experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+7. Categories Management
+Create Categories: Users can create custom categories to organize their expenses.
+Update and Delete: Users have the flexibility to update or delete categories as needed.
 
-## Learn More
+9. CRUD Operations
+Create: Add new expense entries and categories.
+Read: View detailed lists of expenses and categories.
+Update: Modify existing expense entries and categories.
+Delete: Remove expense entries and categories that are no longer needed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+11. Export to CSV
+CSV Export: Users can export their expense data to a CSV file.
+Excel Compatibility: The exported CSV file can be easily opened and analyzed in Excel.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+13. Expense Visualization
+Daily Graphs: Visualize daily expenses through detailed graphs.
+Monthly Graphs: Track and analyze monthly spending patterns.
+Yearly Graphs: View yearly expense trends to understand long-term financial habits.
