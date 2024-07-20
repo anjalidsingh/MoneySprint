@@ -1,34 +1,67 @@
 # Deployment
 This project is deployed on Vercel. You can view it live at: [MoneySprint](https://moneyprint-weld.vercel.app/)
 
-# Key Features of MoneySprint:
+# MoneySprint
 
-1. User Authentication
-Secure Login: Users can create an account and securely log in to access their personalized expense tracking dashboard.
-Data Privacy: Ensures that user data is kept private and secure.
+MoneySprint is a comprehensive expense tracking application designed to help users manage their finances efficiently. Below are the features implemented so far.
 
-3. Expense Tracking
-Daily Expense Logging: Users can log their daily expenses with ease.
-Detailed Records: Each expense entry includes the amount, category, and date.
+## Features
 
-5. Voice Input
-Voice Commands: Users can add expenses using voice commands for a hands-free experience.
+### User Authentication
+**Implemented Features:**
+- User can sign up and log in securely using Firebase Authentication.
+- Password recovery options available.
 
-7. Categories Management
-Create Categories: Users can create custom categories to organize their expenses.
-Update and Delete: Users have the flexibility to update or delete categories as needed.
+### Expense Tracking
+**Implemented Features:**
+- Users can add, edit, and delete their expenses.
+- Expenses are categorized for easy tracking.
 
-9. CRUD Operations
-Create: Add new expense entries and categories.
-Read: View detailed lists of expenses and categories.
-Update: Modify existing expense entries and categories.
-Delete: Remove expense entries and categories that are no longer needed.
+### Voice Input
+**Implemented Features:**
+- Users can add expenses using voice commands for handsfree experience.
 
-11. Export to CSV
-CSV Export: Users can export their expense data to a CSV file.
-Excel Compatibility: The exported CSV file can be easily opened and analyzed in Excel.
+### Categories Management
+**Implemented Features:**
+- Users can create, edit, and delete expense categories.
 
-13. Expense Visualization
-Daily Graphs: Visualize daily expenses through detailed graphs.
-Monthly Graphs: Track and analyze monthly spending patterns.
-Yearly Graphs: View yearly expense trends to understand long-term financial habits.
+### CRUD Functionality
+**Implemented Features:**
+- Comprehensive Create, Read, Update, and Delete (CRUD) operations for managing expenses and categories.
+
+### Export CSV File
+**Implemented Features:**
+- Users can export their expense data to a CSV file for use in Excel or other spreadsheet applications.
+
+### Budgeting and Analytics
+**Implemented Features:**
+- **Graphical Reports:** Daily, monthly, and yearly graphs to visualize spending habits.
+- **Spending Reports:** Detailed reports and visualizations (charts/graphs) of spending habits.
+
+## Getting Started
+
+To get started with MoneySprint, follow these steps:
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/moneysprint.git
+    ```
+2. **Install dependencies:**
+    ```sh
+    cd moneysprint
+    npm install
+    ```
+3. **Set up Firebase:**
+    - Create a Firebase project and add your Firebase configuration to the project.
+4. **Run the application:**
+    ```sh
+    npm start
+    ```
+
+## Contributing
+
+We welcome contributions to improve MoneySprint. To contribute, please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
